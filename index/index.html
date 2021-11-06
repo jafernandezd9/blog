@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Idear Inmobiliaria</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <!-- owl stylesheets --> 
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" href="css/owl.theme.default.min.css">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+      <style type="text/css">
+         #app-messenger, #app-whatsapp{
+
+           position: fixed;
+           right: 1324px;
+           bottom: 25px;
+           width: 60px;
+           z-index: 1000;
+           display: none;
+         }
+         #app-whatsapp{
+              bottom: 95px;
+              display: block;
+         }
+         #app-messenger i, #app-whatsapp i{
+              font-size: 63px;
+         }
+         #app-whatsapp i{
+              color: #1ebea5;
+         }
+         #app-messenger i{
+              color: #0084ff;     
+         }
+
+      </style>
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+      </div>
+      <!-- end loader -->
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="header">
+            <div class="header_white_section">
+               <div class="container-fluid">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="header_information">
+                           <ul>
+                              <li><img src="images/1.png" alt="#"/>Cll 10 N°12-26 B/La Esperanza</li>
+                              <li><img src="images/2.png" alt="#"/>3126036437 - 6047692679</li>
+                              <li><img src="images/3.png" alt="#"/> indiraespitiapetro@gmail.com</li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                     <div class="full">
+                        <div class="center-desk">
+                           <div class="logo"> <a href="index.html"><img src="images/logo2.png" width="300" height="auto" alt="#"></a> </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                     <div class="menu-area">
+                        <div class="limit-box">
+                           <nav class="main-menu">
+                              <ul class="menu-area-main">
+                                 <li class="active"> <a href="#">Inicio</a> </li>
+                                 <li><a href="#about">Nosotros</a></li>
+                                 <li><a href="#travel">Compra</a></li>
+                                 <li><a href="#blog">Encuentranos</a></li>
+                                 <li><a href="#contact">Contactanos</a></li>
+                                 <li><a href="../admin/login.php"><button type="button" class="btn btn-primary btn-lg">Ingresar</button></a></li>
+                              </ul>
+                           </nav>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- end header inner -->
+      </header>
+      <!-- end header -->
+      <section >
+         <div class="banner-main">
+            <center> <img src="images/banner2.jpg" alt="#"/></center>
+         </div>
+      </section>
+      <!-- no borrar -formulario de busqueda -->
+       <!-- <div class="container">
+                     <form class="main-form">
+                        <h3>Busca tu propiedad</h3>
+                        <div class="row">
+                           <div class="col-md-9">
+                              <div class="row">
+                                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                    <label >Palabra clave</label>
+                                    <input class="form-control" placeholder="" type="text" name="">
+                                 </div>
+                                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                    <label >Categoría</label>
+                                    <select class="form-control" name="Any">
+                                       <option>Propiedad</option>
+                                       <option>Casa</option>
+                                       <option>Apartamento</option>
+                                       <option>Finca</option>
+                                       <option>Lote</option>
+                                    </select>
+                                 </div>
+                                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                    <label >Precio mínimo</label>
+                                    <input class="form-control" placeholder="00.0" type="text" name="00.0">
+                                 </div>
+                                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                    <label >Duración</label>
+                                    <input class="form-control" placeholder="Any" type="text" name="Any">
+                                 </div>
+                                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                    <label >Fecha</label>
+                                    <input class="form-control" placeholder="Any" type="date" name="Any">
+                                 </div>
+                                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                    <label >Precio máximo</label>
+                                    <input class="form-control" placeholder="00.0" type="text" name="00.0">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+                              <a href="#">Buscar</a>
+                           </div>
+                        </div>
+                     </form>
+                  </div> -->
+
+<!-- CHAT CON WSAPP -->
+      <a id="app-whatsapp" target="_blanck" href="https://api.whatsapp.com/send?phone=573126036437&amp;text=Hola!&nbsp;Inmobiliaria Idear&nbsp;estoy&nbsp;interesado&nbsp;en&nbsp;una&nbsp;propiedad!" > 
+      <i class="fab fa-whatsapp-square"></i></a>
+
+      <!-- about -->
+      <div id="about" class="about">
+         <div class="container">
+            <div class="row ">
+               <div class="col-md-12 ">
+                  <div class="titlepage">
+                     <h2>Nosotros</h2>
+                     <span>CUMPLIMOS TUS SUEÑOS</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="bg">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                     <div class="about-box">
+                        <p align="justify"> <font size="5"><span>Hola, somos<b> Idear Constructora Inmobiliaria S.A.S. </b>con personería jurídica, reconocida a nivel local y nacional,  contamos con  personal calificado en  asesorias   para la adquisición o  venta de bienes inmuebles   urbanos y rurales, así como servicio de construcción y remodelación de viviendas, con altos standard de calidad, tecnología, y seguridad, manteniendo excelentes relaciones con nuestros clientes y proveedores. 
+                        orientamos en  todo lo  referente a trámites de documentos, crédito y vivienda.</span> </font> </p>
+                        <div class="palne-img-area">
+                           <br><br><br><br>
+                           <img src="images/house2.png" alt="images" width="680">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <a href="#">Inicio</a>
+         </div>
+      </div>
+      <!-- end about -->
+      <!-- traveling -->
+      <div id="travel" class="traveling">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 ">
+                  <div class="titlepage">
+                     <h2>Propiedades en venta y arriendos</h2>
+                     <span>Selecciona la propiedad de tus sueños. A continuación encontrarás diferentes tipos de propiedades para venta y arriendo, encuentra la de tu gusto, seleccionala, conocela y nos contáctaremos contigo. Hacemos realidad tu sueño.</span> 
+                  </div><br>
+               </div>
+            </div>
+            <hr>
+   <h1 align="center">FINCAS</h1><hr>
+       <div class="row">
+               
+  <!-- imagen 1 -->
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="traveling-box">
+                     <i><button type="button" data-toggle="modal" data-target="#exampleModal">
+                        <img src="fincas/1.2.jpeg" alt="icon"/></button></i>
+                     <h3>Se vende finca de 27 hectáreas en San Carlos - Córdoba</h3>
+                     <p>A 11 km del casco urbano</p>
+                     <div class="read-more">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">CONOCELA</button>
+                     </div>
+                  </div>
+               </div>
+               <!-- ventana modal 1 -->
+               <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                 <div class="modal-dialog" role="document">
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                         <span aria-hidden="true">&times;</span>
+                       </button>
+                     </div>
+                     <div class="modal-body">
+                        <h5>FINCA</h5>
+                        <img src="fincas/1.1.jpeg" alt="icon"/>
+                       <p>A 11 km del casco urbano - Casas - Corrales en regular estado - Hecha potrero - Luz electrica - Represas - Pozo artesanal - Le pasa un arroyo por la finca - Orilla de carretera destapada - Platano - Frutos - Valor por hectárea $12 millones -<font color="red"><b> Llámanos 3126036437 - 6047692679</b> </font></p>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+   <!-- imagen 2 -->
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="traveling-box">
+                     <i><button type="button" data-toggle="modal" data-target="#exampleModal2">
+                        <img src="fincas/2.1.jpeg" alt="icon"/></button></i>
+                     <h3>Se venden 3 hectáreas en el municipio de Cereté</h3>
+                     <p>Casas principales de material en excelente estado</p>
+                     <div class="read-more">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">CONOCELA</button>
+                     </div>
+                  </div>
+               </div>
+               <!-- ventana modal 2 -->
+               <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                 <div class="modal-dialog" role="document">
+                   <div class="modal-content">
+                     <div class="modal-header">  
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                         <span aria-hidden="true">&times;</span>
+                       </button>
+                     </div>
+                     <div class="modal-body">
+                        <h5>FINCA</h5>
+                        <img src="fincas/2.2.jpeg" alt="icon"/>
+                       <p>con 2 habitaciones- Baño interno - Cocina - Sala - comedor -Dos Casa de trabajadores con baño - Dos Kioscos - Cocina de leña - Columpios - Tanque elevado - 3 pozos artesanales - Agua potable - Luz electrica - Corrales - Gallinero - Porquerizas - Frutos de varias especies - Arboles maderables - Jardin - Valor $300.000.000 - Se escucha oferta -<font color="red"><b> Llámanos 3126036437 - 6047692679</b> </font></p>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+   <!-- tercera -->
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="traveling-box">
+                     <i><button type="button" data-toggle="modal" data-target="#exampleModal3">
+                        <img src="fincas/3.2.jpeg" alt="icon"/></button></i>
+                     <h3>Se vende hermosa casa finca a </h3>
+                     <p> 3 km del casco urbano de Cereté 
+                     a orilla de carretera troncal </p>
+                     <div class="read-more">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">CONOCELA</button>
+                     </div>
+                  </div>
+               </div>
+               <!-- ventana modal 3 -->
+               <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                 <div class="modal-dialog" role="document">
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                         <span aria-hidden="true">&times;</span>
+                       </button>
+                     </div>
+                     <div class="modal-body">
+                        <h5>FINCA</h5>
+                        <img src="fincas/3.1.jpeg" alt="icon"/>
+                       <p>Casas en ecxelente estado con tres habitaciones - Dos baños - Cocina - sala comedor - Kiosco - toda con cielo razo en driwal - pisos en baldosas - Baños enchapados con toda su grifería - Luz eléctrica - Agua potable - Conecciones de aire - Porqueriza grande - Cultivo de plátano - Árboles frutales - Enrrejada con puerta principal - Eléctrica - Terreno muy fértil para todo cultivo - Zona valorizable - Valor 420 millones - Se escucha oferta -<font color="red"><b> Llámanos 3126036437 - 6047692679</b> </font>
+                        </p>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+  <!-- cuarta -->
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="traveling-box">
+                     <i><button type="button" data-toggle="modal" data-target="#exampleModal4">
+                        <img src="fincas/4.1.jpeg" alt="icon"/></button></i>
+                     <h3>Se vende hermosa finca de 28.5 hectáreas </h3>
+                     <p> Casa moderna  con dos habitaciones </p>
+                     <div class="read-more">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal4">CONOCELA</button>
+                     </div>
+                  </div>
+               </div>
+               <!-- ventana modal 4 -->
+               <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                 <div class="modal-dialog" role="document">
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                         <span aria-hidden="true">&times;</span>
+                       </button>
+                     </div>
+                     <div class="modal-body">
+                        <h5>FINCA</h5>
+                        <img src="fincas/4.2.jpeg" alt="icon"/>
+                       <p>Casa moderna  con dos habitaciones, cada una con su baño interno - Sala comedor -Cocina integral - Kiosco grande en vende agujas - Piscina - Cuarto de mantenimiento de piscina - Baño auxiliar de piscina - Tanque elevado - 40 divisiones, todas hecha potrero - 4 represas - Dos pozos artesanales - Valor 650 millones - Se escucha oferta -<font color="red"><b> Llámanos 3126036437 - 6047692679</b> </font>
+                        </p>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+  <!-- quinta -->
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="traveling-box">
+                     <i><button type="button" data-toggle="modal" data-target="#exampleModal5">
+                        <img src="fincas/5.1.jpeg" alt="icon"/></button></i>
+                     <h3>Se vende hermosa finca    </h3>
+                     <p> Ubicación 2.5 kilómetros de la troncal - Ciénaga de Oro </p>
+                     <div class="read-more">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal5">CONOCELA</button>
+                     </div>
+                  </div>
+               </div>
+               <!-- ventana modal 4 -->
+               <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                 <div class="modal-dialog" role="document">
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                         <span aria-hidden="true">&times;</span>
+                       </button>
+                     </div>
+                     <div class="modal-body">
+                        <h5>FINCA</h5>
+                        <img src="fincas/5.2.jpeg" alt="icon"/>
+                       <p>Extensión 33 has - Cuatro divisiones - Buena topografía ganadera plana - Corral con Vaquera en buen estado - Casa -  kiosko - Galpón - Pastos en  bombaza - Angleton y brachiaria - Ubicación 2.5 kilómetros de la troncal - Ciénaga de Oro.  sobre placa huella - Energía eléctrica - Tres pozos artesanales dos represas - Tanque elevado para el servicio de la casa - Valor neto hectárea 30 millones
+
+                        -<font color="red"><b> Llámanos 3126036437 - 6047692679</b> </font>
+                        </p>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+<!-- sexta -->
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="traveling-box">
+                     <i><button type="button" data-toggle="modal" data-target="#exampleModal6">
+                        <img src="fincas/6.1.jpeg" alt="icon"/></button></i>
+                     <h3>Se vende finca en sahagun </h3>
+                     <p>A 10 km del casco urbano más o menos 7 destapado, el resto en placa huella  </p>
+                     <div class="read-more">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal6">CONOCELA</button>
+                     </div>
+                  </div>
+               </div>
+               <!-- ventana modal 4 -->
+               <div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                 <div class="modal-dialog" role="document">
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                         <span aria-hidden="true">&times;</span>
+                       </button>
+                     </div>
+                     <div class="modal-body">
+                        <h5>FINCA</h5>
+                        <img src="fincas/6.2.jpeg" alt="icon"/>
+                       <p>116 hectáreas -Pastos mejorados -Colosuana y angleton -16 divisiones -Agua en todos los potreros -Agua potable -Luz eléctrica -Casas en excelente estado -Casas de trabajadores - Kiosco -Corrales de bareta -Vaquera con piso -Embarcadero -Vascula -Albergue de cilo - Orilla de carretera destapada -Excelente zona -A 10 km del casco urbano más o menos 7 destapado -El resto en placa huella -Valor por hectárea -16 millones -Se recibe el 30% en permutas -Apartamentos o casas
+
+                        -<font color="red"><b> Llámanos 3126036437 - 6047692679</b> </font>
+                        </p>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+            <!-- </div> -->
+<!-- septima finca -->
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="traveling-box">
+                     <i><button type="button" data-toggle="modal" data-target="#exampleModal70">
+                        <img src="fincas/70.1.jpeg" alt="icon"/></button></i>
+                     <h3>Se  Finca de 240 hectáreas</h3>
+                     <p> Municipio de montería a 24 km del casco urbano</p>
+                     <div class="read-more">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal70">CONOCELA</button>
+                     </div>
+                  </div>
+               </div>
+               <!-- ventana modal 4 -->
+               <div class="modal fade" id="exampleModal70" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                 <div class="modal-dialog" role="document">
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                         <span aria-hidden="true">&times;</span>
+                       </button>
+                     </div>
+                     <div class="modal-body">
+                        <h5>FINCA</h5>
+                        <img src="fincas/70.2.jpeg" alt="icon"/>
+                       <p>municipio de Montería -A 24 km del casco urbano -Solo 2  km destapados con proyección de pavimento -Casa normales -Corrales con manga -Pastos en  brachiaria, decumbes, humidicola, Brachipara -Palma en cantidad - Parte alta y baja - Agua de represa - Por la finca pasa  una quebrada - 80% potreros - Valor hectárea $14.000.000 - Se escucha oferta
+
+                        -<font color="red"><b> Llámanos 3126036437 - 6047692679</b> </font>
+                        </p>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+            
+<!-- octava finca -->
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="traveling-box">
+                     <i><button type="button" data-toggle="modal" data-target="#exampleModal80">
+                        <img src="fincas/80.1.jpeg" alt="icon"/></button></i>
+                     <h3>Se  Finca de 240 hectáreas</h3>
+                     <p>Con varias vías de acceso (Montería-San Pelayo-Lorica)</p>
+                     <div class="read-more">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal80">CONOCELA</button>
+                     </div>
+                  </div>
+               </div>
+               <!-- ventana modal 4 -->
+               <div class="modal fade" id="exampleModal80" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                 <div class="modal-dialog" role="document">
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                         <span aria-hidden="true">&times;</span>
+                       </button>
+                     </div>
+                     <div class="modal-body">
+                        <h5>FINCA</h5>
+                        <img src="fincas/80.2.jpeg" alt="icon"/>
+                       <p>Con varias vías de acceso por Monteria,  San Pelayo Lorica,  por todas se  llega a la finca - De la posible pavimentación de la  vía nueva, de Santa Lucía a moñitos,   va a quedar  a 4.5 km  el  pavimento -Pastos en colosuana , angleton, hominicola, estrella africana -3 hectáreas aprox en teca y roble -Acta para ganadería y agricultura -Corrales de vareta con embarcadero y báscula -Varias quebradas de agua viva - 50 hectáreas aprox en silvopastoreo -Luz eléctrica -12 represas con agua permanente -Valor hectárea 9 millones negociables
+
+                        -<font color="red"><b> Llámanos 3126036437 - 6047692679</b> </font>
+                        </p>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+<!-- novena finca -->
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="traveling-box">
+                     <i><button type="button" data-toggle="modal" data-target="#exampleModal90">
+                        <img src="fincas/90.1.jpeg" alt="icon"/></button></i>
+                     <h3>Se  Finca de 12 hectáreas</h3>
+                     <p>A 10 km de monteria </p>
+                     <div class="read-more">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal90">CONOCELA</button>
+                     </div>
+                  </div>
+               </div>
+               <!-- ventana modal 4 -->
+               <div class="modal fade" id="exampleModal90" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                 <div class="modal-dialog" role="document">
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                         <span aria-hidden="true">&times;</span>
+                       </button>
+                     </div>
+                     <div class="modal-body">
+                        <h5>FINCA</h5>
+                        <img src="fincas/90.2.jpeg" alt="icon"/>
+                       <p>Tiene buenas casas -Agua de tanque elevado - Represa -Hecha potrero -Pastos en angleton -Arboles maderables -Represa -Corrales de bareta -Orilla de carretera destapada -Embarcadero -Frutales -Exelente para ganadería -Agricultura -Piscicultura y otras actividades económicas -Precio 40 millones negociable
+
+                        -<font color="red"><b> Llámanos 3126036437 - 6047692679</b> </font>
+                        </p>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+<!-- decima finca -->
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="traveling-box">
+                     <i><button type="button" data-toggle="modal" data-target="#exampleModal100">
+                        <img src="fincas/100.1.jpeg" alt="icon"/></button></i>
+                     <h3>Se venden 190 hectáreas</h3>
+                     <p>A 30 km de Montería</p>
+                     <div class="read-more">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal100">CONOCELA</button>
+                     </div>
+                  </div>
+               </div>
+               <!-- ventana modal 4 -->
+               <div class="modal fade" id="exampleModal100" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                 <div class="modal-dialog" role="document">
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                         <span aria-hidden="true">&times;</span>
+                       </button>
+                     </div>
+                     <div class="modal-body">
+                        <h5>FINCA</h5>
+                        <img src="fincas/100.2.jpeg" alt="icon"/>
+                       <p>A 13 km del Municipio de San Carlos -A 5 km carretera panamericana - A 30 km de Montería -45 divisiones -12 represas -Corrales de bareta -Embarcadero -Exelentes casas -Casas de trabajadores -Bodega -Dos algibes con capacidad 100.000 litros -Tiene dos entradas -Le atraviesa un arroyo -Pastos en Braquiaria, Decumbe, Brisanta, Tanzania, Toledo y colosuana -Valor por hectárea 17 millones
+                        -<font color="red"><b> Llámanos 3126036437 - 6047692679</b> </font>
+                        </p>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+<!-- Once finca -->
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="traveling-box">
+                     <i><button type="button" data-toggle="modal" data-target="#exampleModal110">
+                        <img src="fincas/110.1.jpeg" alt="icon"/></button></i>
+                     <h3>Se vende excelente finca 44 hectareas</h3>
+                     <p>Finca 44 hectareas</p>
+                     <div class="read-more">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal110">CONOCELA</button>
+                     </div>
+                  </div>
+               </div>
+               <!-- ventana modal 4 -->
+               <div class="modal fade" id="exampleModal110" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                 <div class="modal-dialog" role="document">
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                         <span aria-hidden="true">&times;</span>
+                       </button>
+                     </div>
+                     <div class="modal-body">
+                        <h5>FINCA</h5>
+                        <img src="fincas/110.2.jpeg" alt="icon"/>
+                       <p>Casa con 3 habitaciones, 2 con aire acondicionado -cocina. -Kiosco. -Bodega cerrada -Bodega abierta en lamina termoacustica -Tanque elevado de 5000 litros -Represa con capacidad para 5000 alevinos -Canalizada -División en cerca eléctrica 15 potreros -Toda en angleton -Se pide 40 millones  por hectarea, Se escucha oferta
+                        -<font color="red"><b> Llámanos 3126036437 - 6047692679</b> </font>
+                        </p>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+<!-- Doce finca -->
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="traveling-box">
+                     <i><button type="button" data-toggle="modal" data-target="#exampleModal120">
+                        <img src="fincas/120.1.jpeg" alt="icon"/></button></i>
+                     <h3>Se vende finca de  58 hectáreas</h3>
+                     <p>En  San Pelayo a 9 km aprox del pavimento</p>
+                     <div class="read-more">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal120">CONOCELA</button>
+                     </div>
+                  </div>
+               </div>
+               <!-- ventana modal 4 -->
+               <div class="modal fade" id="exampleModal120" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                 <div class="modal-dialog" role="document">
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                         <span aria-hidden="true">&times;</span>
+                       </button>
+                     </div>
+                     <div class="modal-body">
+                        <h5>FINCA</h5>
+                        <img src="fincas/120.2.jpeg" alt="icon"/>
+                       <p>San Pelayo- Santa Lucía - 5 represas -Pastos en angleton y estrella -Luz eléctrica -Corrales nuevos - Pedido a 17 por hectáreas - Se escucha oferta
+
+                        -<font color="red"><b> Llámanos 3126036437 - 6047692679</b> </font>
+                        </p>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+<!-- Trece finca -->
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="traveling-box">
+                     <i><button type="button" data-toggle="modal" data-target="#exampleModal130">
+                        <img src="fincas/130.1.jpeg" alt="icon"/></button></i>
+                     <h3>Se venden 77 hectáreas </h3>
+                     <p>En San Carlos - Los Lorano</p>
+                     <div class="read-more">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal130">CONOCELA</button>
+                     </div>
+                  </div>
+               </div>
+               <!-- ventana modal 4 -->
+               <div class="modal fade" id="exampleModal130" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                 <div class="modal-dialog" role="document">
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                         <span aria-hidden="true">&times;</span>
+                       </button>
+                     </div>
+                     <div class="modal-body">
+                        <h5>FINCA</h5>
+                        <img src="fincas/130.2.jpeg" alt="icon"/>
+                       <p>Entrando por patio bonito mano izquierda -8 km hacia dentro -Pastos en colosuana -Angletom  braquiaria decumbe y Toledo -Mombasa -Casas trabajadores -Corrales de bareta con piso -8 represas -Toda en cercas eléctricas -Luz eléctrica -Pozo subterráneo -Algibes -Los 8 km en carretera destapada -Hecha potrero -Valor por hectárea $15.000.000 - Se escucha oferta
+
+                        -<font color="red"><b> Llámanos 3126036437 - 6047692679</b> </font>
+                        </p>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+<!-- Catorce finca -->
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="traveling-box">
+                     <i><button type="button" data-toggle="modal" data-target="#exampleModal140">
+                        <img src="fincas/140.1.jpeg" alt="icon"/></button></i>
+                     <h3>Se vende casa finca en Cereté </h3>
+                     <p>Vía San Pelayo - Cereté</p>
+                     <div class="read-more">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal140">CONOCELA</button>
+                     </div>
+                  </div>
+               </div>
+               <!-- ventana modal 4 -->
+               <div class="modal fade" id="exampleModal140" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                 <div class="modal-dialog" role="document">
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                         <span aria-hidden="true">&times;</span>
+                       </button>
+                     </div>
+                     <div class="modal-body">
+                        <h5>FINCA</h5>
+                        <img src="fincas/140.2.jpeg" alt="icon"/>
+                       <p>Casas de tres habitaciones - Un baño - Dos kioscos - Agua - Luz eléctrica - Gas - Valor 150 mil m2
+                        -<font color="red"><b> Llámanos 3126036437 - 6047692679</b> </font>
+                        </p>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+<!-- Quince finca -->
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="traveling-box">
+                     <i><button type="button" data-toggle="modal" data-target="#exampleModal150">
+                        <img src="fincas/150.1.jpeg" alt="icon"/></button></i>
+                     <h3>Se vende hermosa finca de 28.5 hectáreas</h3>
+                     <p>Casa moderna  con dos habitaciones</p>
+                     <div class="read-more">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal150">CONOCELA</button>
+                     </div>
+                  </div>
+               </div>
+               <!-- ventana modal 4 -->
+               <div class="modal fade" id="exampleModal150" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                 <div class="modal-dialog" role="document">
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                         <span aria-hidden="true">&times;</span>
+                       </button>
+                     </div>
+                     <div class="modal-body">
+                        <h5>FINCA</h5>
+                        <img src="fincas/150.2.jpeg" alt="icon"/>
+                       <p>Casa moderna  con dos habitaciones, cada una con su baño interno - Sala comedor - Cocina integral - Kiosco grande en vende agujas -Piscina -Cuarto de mantenimiento de piscina -Baño auxiliar de piscina -Tanque elevado -40 divisiones, todas hecha potrero -4 represas -Dos pozos artesanales -Valor 650 millones - Se escucha oferta
+                        -<font color="red"><b> Llámanos 3126036437 - 6047692679</b> </font>
+                        </p>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+
+          </div>  <!-- cierre fincas -->
+<!-- casas -->
+      <hr><h1 align="center">CASAS</h1><hr>
+      <div class="row">
+<!-- septima -->
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="traveling-box">
+                     <i><button type="button" data-toggle="modal" data-target="#exampleModal7">
+                        <img src="fincas/7.1.jpeg" alt="icon"/></button></i>
+                     <h3>Se vende casa</h3>
+                     <p>Barrio la esperanza - Cereté</p>
+                     <div class="read-more">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal7">CONOCELA</button>
+                     </div>
+                  </div>
+               </div>
+               <!-- ventana modal 4 -->
+               <div class="modal fade" id="exampleModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                 <div class="modal-dialog" role="document">
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                         <span aria-hidden="true">&times;</span>
+                       </button>
+                     </div>
+                     <div class="modal-body">
+                        <h5>CASA</h5>
+                        <img src="fincas/7.2.jpeg" alt="icon"/>
+                       <p>Área 190 metros -Todos los servicios -Calle pavimentada -Tres habitaciones -Tres  baños (uno interno) -Sala comedor amplia -Cocina moderna -Kiosco grande -Camara de aire -Terraza enrejada -Valor $180 millones
+
+                        -<font color="red"><b> Llámanos 3126036437 - 6047692679</b> </font>
+                        </p>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+<!-- OCTAVA -->
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="traveling-box">
+                     <i><button type="button" data-toggle="modal" data-target="#exampleModal8">
+                        <img src="fincas/8.1.jpeg" alt="icon"/></button></i>
+                     <h3>Se vende casa barrio Santa Clara </h3>
+                     <p>Enrejada totalmente por dentro y por fuera, terraza amplia</p>
+                     <div class="read-more">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal8">CONOCELA</button>
+                     </div>
+                  </div>
+               </div>
+               <!-- ventana modal 4 -->
+               <div class="modal fade" id="exampleModal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                 <div class="modal-dialog" role="document">
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                         <span aria-hidden="true">&times;</span>
+                       </button>
+                     </div>
+                     <div class="modal-body">
+                        <h5>CASA</h5>
+                        <img src="fincas/8.2.jpeg" alt="icon"/>
+                       <p>Área 422 metros -5 habitaciones -Dos con baño interno - Un baño social -Estudio -Sala -Comedor -ocina grande integral -Cocina auxiliar -Sala Star -Kiosco de palma grande -Azador -Zona de labores -Perrera -Camara de aire -Garaje doble lineal -Enrrejada totalmente por dentro y por fuera -Terraza amplia -Jardineras externa e interna-Valor $370 millones -Se escucha oferta
+
+                        -<font color="red"><b> Llámanos 3126036437 - 6047692679</b> </font>
+                        </p>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+<!-- NOVENA -->
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="traveling-box">
+                     <i><button type="button" data-toggle="modal" data-target="#exampleModal9">
+                        <img src="fincas/9.1.jpeg" alt="icon"/></button></i>
+                     <h3>Se vende hermosa casa en Cereté</h3>
+                     <p>Zona de alta valorización </p>
+                     <div class="read-more">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal9">CONOCELA</button>
+                     </div>
+                  </div>
+               </div>
+               <!-- ventana modal 4 -->
+               <div class="modal fade" id="exampleModal9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                 <div class="modal-dialog" role="document">
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                         <span aria-hidden="true">&times;</span>
+                       </button>
+                     </div>
+                     <div class="modal-body">
+                        <h5>CASA</h5>
+                        <img src="fincas/9.2.jpeg" alt="icon"/>
+                       <p>Zona de alta valorización -Tres habitaciones -Dos baños internos -Sala comedor -Cocina -Patio -Terraza externa -Terraza interna -Solo falta el portón para el garaje -Esquinera -Valor 98 millones de pesos
+
+                        -<font color="red"><b> Llámanos 3126036437 - 6047692679</b> </font>
+                        </p>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+<!-- decimA -->
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="traveling-box">
+                     <i><button type="button" data-toggle="modal" data-target="#exampleModal10">
+                        <img src="fincas/10.1.jpeg" alt="icon"/></button></i>
+                     <h3>Se vende hermosa casa en Ceretè</h3>
+                     <p>En Conjunto Cerrado</p>
+                     <div class="read-more">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal10">CONOCELA</button>
+                     </div>
+                  </div>
+               </div>
+               <!-- ventana modal 4 -->
+               <div class="modal fade" id="exampleModal10" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                 <div class="modal-dialog" role="document">
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                         <span aria-hidden="true">&times;</span>
+                       </button>
+                     </div>
+                     <div class="modal-body">
+                        <h5>CASA</h5>
+                        <img src="fincas/10.2.jpeg" alt="icon"/>
+                       <p>Conjunto cerrado -Central -Zona muy segura -5 habitaciones -4 baños -Sala y antesala -Garaje y parqueadero para dos vehículos -Biblioteca -Cocina integral grande -Patio -Zona de labores -De dos pisos -Valor 300 millones -Celador las 24 horas
+
+                        -<font color="red"><b> Llámanos 3126036437 - 6047692679</b> </font>
+                        </p>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+<!-- once -->
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="traveling-box">
+                     <i><button type="button" data-toggle="modal" data-target="#exampleModal11">
+                        <img src="fincas/11.1.jpeg" alt="icon"/></button></i>
+                     <h3>Se venden hermosas casas</h3>
+                     <p>CONJUNTO RESIDENCIAL VILLA MILENA  - CERETÉ</p>
+                     <div class="read-more">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal11">CONOCELA</button>
+                     </div>
+                  </div>
+               </div>
+               <!-- ventana modal 4 -->
+               <div class="modal fade" id="exampleModal11" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                 <div class="modal-dialog" role="document">
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                         <span aria-hidden="true">&times;</span>
+                       </button>
+                     </div>
+                     <div class="modal-body">
+                        <h5>CASA</h5>
+                        <img src="fincas/11.2.jpeg" alt="icon"/>
+                       <p>calles pavimentadas -Todos los servicios 
+Excelente sector -Viviendas desde  139.82 M2 -Hasta 153.2.6 M2
+Constan de: PRIMER PISO: Sala -comedor -Cocina integral americana con horno, estufa empotrada y campana -Zona de labores -Baño social -Habitación de servicio  con baño interno -Alberca subterránea -Con sistema de motobomba 
+Tanque elevado -Terraza -Patio grande  lateral con puerta ventana corrediza
+<br>SEGUNDO PISO: 3 Habitaciones -La principal con baño interno y un baño compartido para  las dos habitaciones  -Sala Star -Áreas amplias de jardín 
+Parqueadero para propietarios plaza por vivienda -Puerta de parqueo automatizada con control  remoto -Puerta de acceso con citofonía y cierre electrónico controlado desde el interior de cada  vivienda -Iluminación de la zona de jardinería subterránea -La Acometidas a viviendas es subterránea <br>
+Valor  $193.000.000 las de menor área 
+Y 204.000.000 las de mayor área
+
+                        -<font color="red"><b> Llámanos 3126036437 - 6047692679</b> </font>
+                        </p>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+<!-- doce -->
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="traveling-box">
+                     <i><button type="button" data-toggle="modal" data-target="#exampleModal12">
+                        <img src="fincas/12.1.jpeg" alt="icon"/></button></i>
+                     <h3>Se vende hermosa casa</h3>
+                     <p>Barrio Santa Clara - CERETÉ</p>
+                     <div class="read-more">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal11">CONOCELA</button>
+                     </div>
+                  </div>
+               </div>
+               <!-- ventana modal 4 -->
+               <div class="modal fade" id="exampleModal12" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                 <div class="modal-dialog" role="document">
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                         <span aria-hidden="true">&times;</span>
+                       </button>
+                     </div>
+                     <div class="modal-body">
+                        <h5>CASA</h5>
+                        <img src="fincas/12.2.jpeg" alt="icon"/>
+                       <p> 3 habitaciones - La principal con baño interno y un baño compartido - Sala comedor - Cocina - Zona de labores - Patio - Terraza garaje -  Valor 150 millones
+
+                        -<font color="red"><b> Llámanos 3126036437 - 6047692679</b> </font>
+                        </p>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <!-- tarjeta original 
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="traveling-box">
+                     <i><img src="icon/travel-icon4.png" alt="icon"/></i>
+                     <h3>Vendo casa de 12 x 37</h3>
+                     <p>Hermosa casa en zona urbana, 3 habitaciones, 2 baños, garaje doble</p>
+                     <div class="read-more">
+                        <a  href="#">Conocela</a>
+                     </div>
+                  </div>
+               </div> -->
+
+            </div>
+         </div>
+      </div>
+      <!-- end traveling -->
+      <!--London -->
+      <div id="blog" class="blog">
+      <div class="London">
+          
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Visitanos en nuestras oficinas</h2>
+                     <span><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.9471462662004!2d-75.79083035773108!3d8.884506352291735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e5a2a3964f19703%3A0xbc17c61f930259f1!2zQ2wuIDEwICMxMi0yNiwgQ2VyZXTDqSwgQ8OzcmRvYmE!5e0!3m2!1ses!2sco!4v1620500869859!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></span> 
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container-fluid">
+            <div class="London-img">
+               <figure><img src="images/London.jpg" alt="img"/></figure>
+            </div>
+         </div>
+      </div>
+   </div>
+      <!-- end London -->
+      <!--Tours -->
+      <!-- <div class="Tours">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Propiedades destacadas</h2>
+                     <span>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</span> 
+                  </div>
+               </div>
+            </div>
+            <section id="demos">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="owl-carousel owl-theme">
+                        <div class="item">
+                           <img class="img-responsive" src="images/1.jpg" alt="#" />
+                           <h3>Holiday Tour</h3>
+                           <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in soe suffk even slightly believable. If y be sure there</p>
+                        </div>
+                        <div class="item">
+                           <img class="img-responsive" src="images/2.jpg" alt="#" />
+                           <h3>New York</h3>
+                           <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in soe suffk even slightly believable. If y be sure there</p>
+                        </div>
+                        <div class="item">
+                           <img class="img-responsive" src="images/3.jpg" alt="#" />
+                           <h3>London</h3>
+                           <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in soe suffk even slightly believable. If y be sure there</p>
+                        </div>
+                        <div class="item">
+                           <img class="img-responsive" src="images/2.jpg" alt="#" />
+                           <h3>Holiday Tour</h3>
+                           <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in soe suffk even slightly believable. If y be sure there</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+         </div>
+      </div> -->
+      <!-- end Tours -->
+      <!-- Amazing -->
+      <!-- <div class="amazing">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="amazing-box">
+                     <h2>Amazing London Tour</h2>
+                     <span>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there</span>
+                     <a href="#">Book Now</a><a href="#">Get More</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div> -->
+      <!-- end Amazing -->
+      <!-- our blog -->
+      <!-- <div id="blog" class="blog">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Nuestro blog</h2>
+                     <span>Lorem Ipsum is that it has a more-or-less normal distribution of letters,</span> 
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                  <div class="blog-box">
+                     <figure><img src="images/blog-image0.jpg" alt="#"/>
+                        <span>4 Feb 2019</span>
+                     </figure>
+                     <div class="travel">
+                        <span>Post  By :  Travel  Agency</span> 
+                        <p><strong class="Comment"> 06 </strong>  Comment</p>
+                        <p><strong class="like">05 </strong>Like</p>
+                     </div>
+                     <h3>London Amazing Tour</h3>
+                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web</p>
+                  </div>
+               </div>
+               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                  <div class="blog-box">
+                     <figure><img src="images/blog-image.jpg" alt="#"/>
+                        <span>10 Feb 2019</span>
+                     </figure>
+                     <div class="travel">
+                        <span>Post  By :  Travel  Agency</span> 
+                        <p><strong class="Comment"> 06 </strong>  Comment</p>
+                        <p><strong class="like">05 </strong>Like</p>
+                     </div>
+                     <h3>London Amazing Tour</h3>
+                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div> -->
+      <!-- end our blog -->
+   
+
+      <!-- footer -->
+      <footer>
+         <div id="contact" class="footer">
+            <div class="container">
+               <div class="row pdn-top-30">
+                  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                     <ul class="location_icon">
+                        <li> <a href="#"><img src="icon/facebook.png"></a></li>
+                        <li> <a href="#"><img src="icon/Twitter.png"></a></li>
+                        <li> <a href="#"><img src="icon/linkedin.png"></a></li>
+                        <li> <a href="#"><img src="icon/instagram.png"></a></li>
+                     </ul>
+                  </div>
+                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                     <div class="Follow">
+                        <h3>CONTACTANOS</h3>
+                        <span>BARRIO<br>La Esperanza,<br>
+                        Calle 10 N° 12-26<br>
+                        +057-3126036437<br>
+                        6047692679</span>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                     <div class="Follow">
+                        <h3>Enlaces adicionales</h3>
+                        <ul class="link">
+                           <li> <a href="#">Acerca de nosotros</a></li>
+                           <li> <a href="#">Terminos y condiciones</a></li>
+                           <li> <a href="#">Privacidad de información</a></li>
+                           <li> <a href="#">Noticias</a></li>
+                           <li> <a href="#">Contactanos</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                     <div class="Follow">
+                        <h3>ESCRÍBENOS</h3>
+                        <form action="enviar.php" method="POST">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                              <input class="Newsletter" placeholder="Digita tu nombre" type="text" name="nombre">
+                           </div>
+                           <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                              <input class="Newsletter" placeholder="Digita tu # celular" type="text" name="celular">
+                           </div>
+                           <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                              <input class="Newsletter" placeholder="Digita tu correo" type="text" name="correo">
+                           </div>
+                           <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                              <textarea class="textarea" placeholder="Escribenos" type="text" name="comentario"></textarea>
+                           </div>
+                        </div>
+                        <button class="Subscribe" name="enviar">Enviar</button>
+                     </div></form>
+                  </div>
+               </div>
+               <div class="copyright">
+                  <div class="container">
+                     <p>Copyright 2019 All Right Reserved By <a href=""></a></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+
+      <!-- Faceboon chat -->
+
+
+      <!-- Javascript files-->
+      <script src="https://kit.fontawesome.com/42c53db73c.js" crossorigin="anonymous"></script>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <!-- javascript --> 
+      <script src="js/owl.carousel.js"></script>
+      <script>
+         $(document).ready(function() {
+           var owl = $('.owl-carousel');
+           owl.owlCarousel({
+             margin: 10,
+             nav: true,
+             loop: true,
+             responsive: {
+               0: {
+                 items: 1
+               },
+               600: {
+                 items: 2
+               },
+               1000: {
+                 items: 3
+               }
+             }
+           })
+         })
+      </script>
+     
+   </body>
+</html>
